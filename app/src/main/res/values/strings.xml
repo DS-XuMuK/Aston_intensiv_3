@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aston intensiv 3</string>
+    <string name="button_label_HW1">Homework 1</string>
+    <string name="button_label_HW2">Homework 2</string>
+    <string name="edittext_hint">Enter image url</string>
+    <string name="error_toast">Image loading error</string>
+
+
+</resources>

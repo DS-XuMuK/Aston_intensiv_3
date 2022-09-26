@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="226dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:background="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/white">
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/green" />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="@color/red" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/blue">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/yellow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="@color/red" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/green">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/red" />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@color/blue" />
+
+        </FrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="360dp"
+            android:layout_height="272dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@color/red">
+
+            <View
+                android:layout_width="72dp"
+                android:layout_height="216dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="216dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
